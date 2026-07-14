@@ -39,6 +39,7 @@ function injectMeta(
 
 async function startServer() {
   const app = express();
+  app.set("trust proxy", 1);
   const server = createServer(app);
 
   // Serve static files from dist/public in production
