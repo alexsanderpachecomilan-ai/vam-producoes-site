@@ -78,6 +78,23 @@ export const caseStudies: CaseStudyData[] = [
       "Acesso constante a gravações com qualidade profissional, com custo mensal previsível, sem depender de agendamentos externos ou investimento em equipamentos próprios.",
     services: ["Estúdio com Chroma Key", "Iluminação Profissional", "Múltiplas Câmeras", "Operação In-loco por Assinatura", "Direção", "Edição", "Finalização"],
   },
+  {
+    slug: "clipp",
+    client: "Clipp Clínica de Psicanálise",
+    category: "Transmissão Híbrida",
+    segment: "Saúde Mental · Educação",
+    shortDescription: "Estrutura fixa de estúdio para transmissão de aulas ao vivo em modelo híbrido (presencial e online), com operação mensal por assinatura.",
+    description:
+      "Para a Clipp, a VAM montou uma estrutura permanente de transmissão para aulas no modelo híbrido — parte da turma presencial, parte assistindo ao vivo pela internet. Com câmeras, áudio, iluminação e vinheta com cronômetro e gerador de caracteres (GC) em tela, a operação roda por assinatura mensal, com a VAM responsável por manter o local e disponibilizar operadores em cada transmissão.",
+    image: "/portfolio/estudio-vam-2.jpg",
+    challenge:
+      "A Clipp precisava transmitir aulas ao vivo para alunos remotos, mantendo a mesma qualidade da experiência presencial — com identidade visual profissional (vinheta, cronômetro, informações em tela) e sem ter que montar e operar uma equipe técnica própria a cada aula.",
+    solution:
+      "A VAM projetou e instalou uma estrutura fixa de câmeras, áudio e iluminação no local da Clipp, criou a vinheta de abertura com cronômetro e gerador de caracteres (GC) para informações em tela, e assumiu a operação da transmissão híbrida por assinatura mensal, com equipe própria disponível em cada aula.",
+    result:
+      "Aulas transmitidas ao vivo com qualidade broadcast, tanto para quem está na sala quanto para quem assiste online, com custo previsível e sem a Clipp precisar manter equipe técnica interna.",
+    services: ["Transmissão ao Vivo", "Modelo Híbrido", "Montagem de Estúdio", "Motion Graphics (Vinheta e GC)", "Operação por Assinatura", "Áudio e Iluminação"],
+  },
 ];
 
 export function getCaseStudyBySlug(slug: string): CaseStudyData | undefined {
